@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+function reset_form(){
+    document.action_form.reset();
+}
+</script>
+</head>
+<body>
+<h2>판매등록</h2>
+<form action="action/sale_insert.jsp" method = "post" name = "action_form">
+<table border = "1">
+<tr>
+    <td>판매한 상품</td>
+    <td> </td>
+</tr>
+<tr>
+<td>수량</td>
+<td><input type="number" name = "amount"></td>
+</tr>
+<tr>
+    <td>판매 날짜</td>
+    <td><input type="date" name = " puchase_date"></td>
+</tr>
+<tr>
+    <td colspan = "2">
+        <input type="submit" value = "등록하기">
+        <input type="button" value = "다시쓰기" onclick="reset_form()">
+    </td>
+</tr>
+</table>
+
+</form>
+</body>
+</html>
