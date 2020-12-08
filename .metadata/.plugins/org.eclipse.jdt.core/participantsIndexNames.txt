@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+C:\Users\user\Desktop\hrdkorea\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2038972573.index
+\HRD_3\src
