@@ -1,18 +1,18 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-<h3>¼îÇÎ¸ô °ü¸® ÇÁ·Î±×·¥</h3><br>
+<h3>ì‡¼í•‘ëª° ê´€ë¦¬ í”„ë¡œê·¸ëž¨</h3><br>
 
-¼îÇÎ¸ôÀ» °ü¸®ÇÏ±â À§ÇÑ ÇÁ·Î±×·¥ÀÌ´Ù<br>
+ì‡¼í•‘ëª°ì„ ê´€ë¦¬í•˜ê¸° ìœ„í•œ í”„ë¡œê·¸ëž¨ì´ë‹¤<br>
 <br>
-1.»óÇ°Å×ÀÌºí, Ä«Å×°í¸® Å×ÀÌºí, ¸ÅÃâÁ¤º¸ Å×ÀÌºíÀ» »ý¼ºÇÑ´Ù.
-2. ÆÇ¸Å µî·Ï, ÅëÇÕ ¸ÅÃâ ³»¿ª Á¶È¸, »óÇ°º° ¸ÅÃâÇöÈ², Ä«Å×°í¸®º° ¸ÅÃâÇöÈ² Á¶È¸ ÆäÀÌÁö¸¦ ÀÛ¼ºÇÑ´Ù.
-3. ¿Ã¹Ù¸£°Ô ±¸ÇöµÇ¾ú´ÂÁö È®ÀÎÇÑ´Ù.
+1.ìƒí’ˆí…Œì´ë¸”, ì¹´í…Œê³ ë¦¬ í…Œì´ë¸”, ë§¤ì¶œì •ë³´ í…Œì´ë¸”ì„ ìƒì„±í•œë‹¤.
+2. íŒë§¤ ë“±ë¡, í†µí•© ë§¤ì¶œ ë‚´ì—­ ì¡°íšŒ, ìƒí’ˆë³„ ë§¤ì¶œí˜„í™©, ì¹´í…Œê³ ë¦¬ë³„ ë§¤ì¶œí˜„í™© ì¡°íšŒ íŽ˜ì´ì§€ë¥¼ ìž‘ì„±í•œë‹¤.
+3. ì˜¬ë°”ë¥´ê²Œ êµ¬í˜„ë˜ì—ˆëŠ”ì§€ í™•ì¸í•œë‹¤.
 </body>
 </html>

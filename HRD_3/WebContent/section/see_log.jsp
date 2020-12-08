@@ -1,13 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+    pageEncoding="UTF-8"%>
 <%@ page import="java.sql.*" %><table border = "1">
-<h2>ÅëÇÕ ¸ÅÃâ ³»¿ª Á¶È¸</h2>
+<h2>í†µí•© ë§¤ì¶œ ë‚´ì—­ ì¡°íšŒ</h2>
 <tr>
-<td>ÆÇ¸Å ID</td>
-<td>»óÇ°¸í</td>
-<td>±¸¸Å ÀÏÀÚ</td>
-<td>ÃÑ ±¸¸Å ±Ý¾×</td>
-<td>±¸¸Å °³¼ö</td>
+<td>íŒë§¤ ID</td>
+<td>ìƒí’ˆëª…</td>
+<td>êµ¬ë§¤ ì¼ìž</td>
+<td>ì´ êµ¬ë§¤ ê¸ˆì•¡</td>
+<td>êµ¬ë§¤ ê°œìˆ˜</td>
 </tr>
 <%
 	try {
@@ -16,7 +16,7 @@
 		("jdbc:oracle:thin:@//localhost:1521/xe", "system", "1234");
 		Statement stmt = conn.createStatement();
 		//String query = "select SALENO, SCODE, SALEDATE, PNAME, AMOUNT FROM TBL_SALELIST_01, TBL_PIZZA_01 where TBL_PIZZA_01.PCODE = TBL_SALELIST_01.PCODE";
-		String query = "select * from TBL_SALE_01, TBL_PRODUCT_01";
+		String query = "select TBL_SALE_01.SALE_ID, TBL_PRODUCT_01.NAME, TBL_SALE_01.PURCHASE_DATE, TBL_SALE_01.SALE_PRICE, TBL_SALE_01.AMOUNT from TBL_SALE_01, TBL_PRODUCT_01 where TBL_SALE_01.PRODUCT_ID = TBL_PRODUCT_01.PRODUCT_ID";
 		ResultSet rs = stmt.executeQuery(query);
 		while (rs.next()) {
 		%>	

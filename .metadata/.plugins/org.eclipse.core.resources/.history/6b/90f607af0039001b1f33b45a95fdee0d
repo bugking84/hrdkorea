@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="UTF-8"%>
 <%@ page import="java.sql.*" %><table border = "1">
-<h2>상품별 매출 현황</h2>
+<h2>통합 매출 내역 조회</h2>
 <tr>
 <td>판매 ID</td>
 <td>상품명</td>
@@ -16,7 +16,7 @@
 		("jdbc:oracle:thin:@//localhost:1521/xe", "system", "1234");
 		Statement stmt = conn.createStatement();
 		//String query = "select SALENO, SCODE, SALEDATE, PNAME, AMOUNT FROM TBL_SALELIST_01, TBL_PIZZA_01 where TBL_PIZZA_01.PCODE = TBL_SALELIST_01.PCODE";
-		String query = "select * from TBL_SALE_01, TBL_PRODUCT_01";
+		String query = "select TBL_SALE_01.SALE_ID, TBL_PRODUCT_01.NAME, TBL_SALE_01.PURCHASE, TBL_SALE_01.SALE_PRICE, TBL_SALE_01.AMOUNT from TBL_SALE_01, TBL_PRODUCT_01 where TBL_SALE_01.PRODUCT_ID = TBL_PRODUCT_01.PRODUCT_ID";
 		ResultSet rs = stmt.executeQuery(query);
 		while (rs.next()) {
 		%>	

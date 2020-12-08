@@ -1,19 +1,19 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-    <div id="header"><h1>¼îÇÎ¸ô °ü¸® ÇÁ·Î±×·¥</h1></div>
+    <div id="header"><h1>ì‡¼í•‘ëª° ê´€ë¦¬ í”„ë¡œê·¸ëž¨</h1></div>
     <div id="nav">
-    <a class = "Tag_A" href = "index.jsp?section=sell">ÆÇ¸Å µî·Ï</a>
-    <a class = "Tag_A" href = "index.jsp?section=log">ÅëÇÕ ¸ÅÃâ ³»¿ª Á¶È¸</a>
-    <a class = "Tag_A" href = "index.jsp?section=get">»óÇ°º° ¸ÅÃâÇöÈ²</a>
-    <a class = "Tag_A" href = "index.jsp?section=now">Ä«Å×°í¸®º° ¸ÅÃâÇöÈ² Á¶È¸</a>
-    <a class = "Tag_A" href = "index.jsp?section=home">È¨À¸·Î</a>
+    <a class = "Tag_A" href = "index.jsp?section=sell">íŒë§¤ ë“±ë¡</a>
+    <a class = "Tag_A" href = "index.jsp?section=log">í†µí•© ë§¤ì¶œ ë‚´ì—­ ì¡°íšŒ</a>
+    <a class = "Tag_A" href = "index.jsp?section=get">ìƒí’ˆë³„ ë§¤ì¶œí˜„í™©</a>
+    <a class = "Tag_A" href = "index.jsp?section=now">ì¹´í…Œê³ ë¦¬ë³„ ë§¤ì¶œí˜„í™© ì¡°íšŒ</a>
+    <a class = "Tag_A" href = "index.jsp?section=home">í™ˆìœ¼ë¡œ</a>
     </div>
     <div id="section">
     <%

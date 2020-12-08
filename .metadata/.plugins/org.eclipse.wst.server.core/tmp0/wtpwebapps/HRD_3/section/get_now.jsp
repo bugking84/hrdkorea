@@ -1,13 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+    pageEncoding="UTF-8"%>
 <%@ page import="java.sql.*" %><table border = "1">
-<h2>»óÇ°º° ¸ÅÃâ ÇöÈ²</h2>
+<h2>ìƒí’ˆë³„ ë§¤ì¶œ í˜„í™©</h2>
 <tr>
-<td>ÆÇ¸Å ID</td>
-<td>»óÇ°¸í</td>
-<td>±¸¸Å ÀÏÀÚ</td>
-<td>ÃÑ ±¸¸Å ±Ý¾×</td>
-<td>±¸¸Å °³¼ö</td>
+<td>íŒë§¤ ID</td>
+<td>ìƒí’ˆëª…</td>
+<td>êµ¬ë§¤ ì¼ìž</td>
+<td>ì´ êµ¬ë§¤ ê¸ˆì•¡</td>
+<td>êµ¬ë§¤ ê°œìˆ˜</td>
 </tr>
 <%
 	try {
