@@ -44,8 +44,8 @@
     </tr>
         <tr>
         <td>선택</td>
-        <td><input type="radio" name="gender" value = "male"><a>남</a>
-        <input type="radio" name="gender" value = "female"><a>여</a>
+        <td><input type="radio" name="gender"><a>남</a>
+        <input type="radio" name="genderr"><a>여</a>
         </td>
     </tr>
     <tr>
@@ -59,7 +59,7 @@
 
 <script>
 function submit_form(){
-	if (document.action_form.amount.value === ""){
+	if (document.action_form.amount.ㅍ미ㅕㄷ === ""){
 		alert("수량을 입력해 주세요");
 		document.action_form.amount.focus();
 		return;

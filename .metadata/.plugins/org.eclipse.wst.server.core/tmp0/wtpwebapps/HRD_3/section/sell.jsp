@@ -42,6 +42,12 @@
         <td>판매 날짜</td>
         <td><input type="date" name="purchase_date"></td>
     </tr>
+        <tr>
+        <td>선택</td>
+        <td><input type="radio" name="gender" value = "male"><a>남</a>
+        <input type="radio" name="gender" value = "female"><a>여</a>
+        </td>
+    </tr>
     <tr>
         <td colspan="2">
             <input type="button" value="등록하기" onclick="submit_form()">
@@ -53,7 +59,7 @@
 
 <script>
 function submit_form(){
-	if (document.action_form.amount.ㅍ미ㅕㄷ === ""){
+	if (document.action_form.amount.value === ""){
 		alert("수량을 입력해 주세요");
 		document.action_form.amount.focus();
 		return;
